@@ -1,0 +1,47 @@
+body {
+ margin: 0;
+ padding: 0;
+  font-family: "Open Sans", sans-serif; }
+  
+
+h1, h2, h3 {
+ margin: 0;
+ padding: 0;
+  font-family: "Lobster", cursive; }
+
+  #jumbo h1{
+   color: white;
+  }
+
+  h1 {
+   color: red;
+  }
+
+h2 {
+  color: red; }
+
+  .owl-carousel .owl-item img {
+    display: block;
+    height: 250px;
+    width: 100%;
+    min-width: 100%;
+}
+
+.site-footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0; }
+  
+
+.jumbotron {
+  overflow: auto;
+  background-image: linear-gradient(to left, #69140E, #590004, black, black);
+  color: white; }
+
+  .navbar {
+   background-image: linear-gradient(to right, #69140E, #590004, black, black);
+  background-color: black; }
+
+.row-content {
+  padding: 50px, 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
