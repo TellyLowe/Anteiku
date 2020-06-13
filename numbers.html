@@ -4,20 +4,85 @@
 <head>
  <meta charset="UTF-8" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <title>Numbers</title>
+ <link rel="stylesheet" href="styles.css">
+ <link
+  href="https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:ital,wght@0,400;1,700&family=Yesteryear&display=swap"
+  rel="stylesheet">
+ <link
+  href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:ital,wght@0,400;1,700&family=Yesteryear&display=swap"
+  rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+  integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+ <link rel="stylesheet" href="dist/assets/owl.carousel.css" type="text/css">
+ <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css" type="text/css">
+ <title>About</title>
 </head>
 
 <body>
- <img src="./images/logo--.png.jpg" id="logo" alt="coffee logo" />
- <h3>Coffee Junkie</h3>
- <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="about.html">About</a></li>
-  <li><a href="numbers.html">Numbers</a></li>
-  <li><a href="contact.html">Contact</a></li>
- </ul>
- <img src="./images/beans.png" width="100%" alt="coffee beans" />
- <br />
+ <header id="jumbo" class="jumbotron jumbotron-fluid my-auto">
+  <div class="container">
+   <div class="row">
+    <div class="col-4 col-sm-3 col-md-2 align-self-center">
+     <a href="index.html"> <img src="images/ghoul-logo.jpg" class="img-fluid" /></a>
+    </div>
+    <div class="col">
+     <h1>Anteiku</h1>
+     <h2>Good To The Last Drop</h2>
+    </div>
+   </div>
+  </div>
+ </header>
+ <!-- NavBar -->
+ <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+  <div class="container">
+   <a class="nav-brand" href="index.html"><img src="images/ghoul-mug.jpg" height="60" width="60" /> </a>
+   <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#ghoulNavbar">
+    <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="ghoulNavbar">
+    <ul class="navbar-nav">
+     <li class="nav-item active ml-3"><a class="nav-link text-danger" href="index.html"><i class="fa fa-home fa-lg"
+        style="color: black;"></i> Home</a></li>
+     <li class="nav-item ml-3"><a class="nav-link text-danger" href="about.html"><i class="fa fa-info-circle fa-lg"
+        style="color: black;"></i> About</a></li>
+     <li class="nav-item ml-3"><a class="nav-link text-danger" href="#"><i
+        class="fas fa-sort-numeric-up fa-lg" style="color: black;"></i> Numbers</a></li>
+     <li class="nav-item ml-3"><a class="nav-link text-danger" href="contact.html"><i class="fab fa-phoenix-framework"
+        style="color: black;"></i> Contact</a>
+     </li>
+    </ul>
+   </div>
+  </div>
+ </nav>
+ <div class="container">
+  <div class="row">
+   <div class="col">
+    <ol class="breadcrumb">
+     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+     <li class="breadcrumb-item active">Numbers</li>
+    </ol>
+   </div>
+  </div>
+ </div>
+ <div class="col-sm-6">
+  <div class="card">
+   <h3 class="card-header bg-danger text-white">A Closer Look</h3>
+   <div class="card-body">
+    <dl class="row text-danger">
+     <dt class="col-6">Founded</dt>
+     <dd class="col-6">June 3rd, 2014</dd>
+     <dt class="col-6">No. of cafes in 2020</dt>
+     <dd class="col-6">1</dd>
+     <dt class="col-6">No. of Reviews in 2020</dt>
+     <dd class="col-6">200</dd>
+     <dt class="col-6">Ghouls</dt>
+     <dd class="col-6">8</dd>
+    </dl>
+   </div>
+  </div>
+ </div>
  <h1>Our Stores</h1>
  <br />
 <table style="border:2px solid black; border-spacing:25px">
@@ -53,7 +118,45 @@
  <br />
  <p>copyright&copy;2020</p>
  <h3><a href="#logo">Back To Top</a></h3>
- </h3>
+
+<footer class="site-footer">
+ <div class="container">
+  <div class="row">
+   <div class="col-4 col-sm-2 offset-1">
+    <h5 class="text-success">Links</h5>
+    <ul class="list-unstyled">
+     <li><a href="#">Home</a></li>
+     <li><a href="aboutus.html">About</a></li>
+     <li><a href="numbers.html">Numbers</a></li>
+     <li><a href="contact.html">Contact</a></li>
+    </ul>
+   </div>
+   <div class="col-6 col-sm-5 text-center">
+    <h5 class="text-success">Social</h5>
+    <a href="http://instagram.com/"><i class="fab fa-instagram"></i></a>
+    <a href="http://facebook.com/"><i class="fab fa-facebook"></i></a>
+    <a href="http://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+    <a href="http://youtube.com/"><i class="fab fa-youtube"></i></a>
+   </div>
+   <div class="col-sm-4 text-center">
+    <a role="button" class="btn btn-link text-primary" href="tel:+12065551234">
+     <i class="fa fa-phone fa-lg text-success"></i>1-206-555-1234
+    </a>
+    <br /><a role="button" class="btn btn-link text-primary" href="mailto:campsites@nucamp.co">
+     <i class="fa fa-envelope fa-lg text-success"></i>campsites@nucamp.co
+    </a>
+   </div>
+  </div>
+ </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+ integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="dist/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
+
 </body>
 
 </html>
