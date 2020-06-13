@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
  $('#slider').owlCarousel({
   items: 3,
   autoplay: true,
