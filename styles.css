@@ -33,14 +33,19 @@ h2 {
  }
 
   h4 {
-   font-family: 'Dancing Script', cursive;
-   font-size: large;
-   color: green;
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+    color: green;
   }
 
   h3 {
-   font-family: 'Dancing Script', cursive;
-   color: red;
+    font-family: 'Dancing Script', cursive;
+    color: red;
+  }
+
+  .productCards {
+    width:100%;
+    height:auto;
   }
 
   .owl-carousel .owl-item img {
